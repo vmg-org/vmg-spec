@@ -1,0 +1,18 @@
+{
+  "id": "container_format",
+  "primaryKey": "id",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Id of multimedia container format",
+      "required": true,
+      "maxLength": 25
+    },
+    "description": {
+      "type": "string",
+      "description": "Description",
+      "required": true,
+      "maxLength": 8000
+    }
+  }
+}
