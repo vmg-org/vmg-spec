@@ -1,0 +1,6 @@
+{
+  "id": "movie-templates",
+  "description": "movie templates",
+  "consumes": ["application/json", "application/x-www-form-urlencoded", "application/xml"],
+  "produces": ["application/json", "application/x-www-form-urlencoded", "application/xml"]
+}

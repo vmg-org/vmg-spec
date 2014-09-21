@@ -1,0 +1,27 @@
+{
+  "id": "movie_template",
+  "primaryKey": "id",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Id of movie template",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of movie (template)",
+      "required": true,
+      "maxLength": 255
+    },
+    "duration_of_episodes": {
+      "type": "integer",
+      "description": "Duration of each episode",
+      "required": true
+    },
+    "count_of_episodes": {
+      "type": "integer",
+      "description": "Count of episodes in movie",
+      "required": true
+    }
+  }
+}

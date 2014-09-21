@@ -1,0 +1,15 @@
+{
+  "name": "vmg-spec",
+  "version": "0.1.0",
+  "description": "VMG specification: models, api methods, api declaration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:vidmerg-team/vmg-spec.git"
+  },
+  "author": "IvanRave",
+  "license": "ISC"
+}

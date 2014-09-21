@@ -1,0 +1,28 @@
+{
+  "getListOfAuthIssuer": {
+    "nickname": "getListOfAuthIssuer",
+    "path": "/auth-issuers",
+    "method": "GET",
+    "type": "array",
+    "items": {
+      "$ref": "auth_issuer"
+    },
+    "summary": "Get list of auth issuers",
+    "parameters": [],
+    "responseMessages": []
+  },
+  "postAuthIssuer": {
+    "nickname": "postAuthIssuer",
+    "path": "/auth-issuers",
+    "method": "POST",
+    "type": "auth_issuer",
+    "summary": "Create an auth issuer",
+    "parameters": [{
+      "name": "body",
+      "description": "Auth issuer",
+      "required": true,
+      "type": "auth_issuer",
+      "paramType": "body"
+    }]
+  }
+}
