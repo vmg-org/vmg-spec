@@ -11,5 +11,10 @@
     "url": "git@bitbucket.org:vidmerg-team/vmg-spec.git"
   },
   "author": "IvanRave",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-jshint": "^1.8.4",
+    "jshint-stylish": "^0.2.0"
+  }
 }
