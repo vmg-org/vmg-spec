@@ -1,7 +1,7 @@
 VMG specification
 ---
 
-Structure
-===
-- src folder contains json files (readable version)
-- dst folder contains json files (minified version) and a joined file with entire specification for an API docs website (a gulp task creates it)
+- Type of specification: Swagger spec 2.0
+- Main file: index.json
+- Install: npm install --save <full_repo_path>
+- Using in NodeJs: require('vmg-spec')
