@@ -165,7 +165,12 @@
         "id_of_movie_template": {
           "type": "integer",
           "description": "Id of a parent",
-          "required": true
+          "required": true,
+          "zref": {
+            "mdl": "movie_template",
+            "fld": "id",
+            "del": "cascade"
+          }
         }
       }
     },
