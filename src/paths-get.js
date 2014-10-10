@@ -3,7 +3,7 @@ var pth = {
 };
 
 module.exports = {
-  r1000: {
+  '/r1000': {
     "get": {
       "operationId": "r1000",
       "tags": ["auth_issuer"],
@@ -22,7 +22,7 @@ module.exports = {
       }
     }
   },
-  r1001: {
+  '/r1001': {
     "get": {
       "operationId": "r1001",
       "tags": ["movie_template"],
@@ -42,7 +42,7 @@ module.exports = {
       "security": {}
     }
   },
-  r1002: {
+  '/r1002': {
     get: {
       operationId: "r1002",
       tags: ["movie_template"],

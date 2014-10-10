@@ -3,7 +3,7 @@ var pth = {
 };
 
 module.exports = {
-  "w2000": {
+  "/w2000": {
     "post": {
       "operationId": "w2000",
       "tags": ["movie_template"],
