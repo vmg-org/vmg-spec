@@ -14,7 +14,7 @@ module.exports = {
     }
   },
   "host": "localhost:3000",
-  "basePath": "/api/",
+  "basePath": "/api",
   "schemes": ["http", "https"],
   "paths": {},
   "definitions": {}
