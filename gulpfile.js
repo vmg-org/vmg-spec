@@ -1,17 +1,16 @@
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var jshintReporter = require('jshint-stylish');
+var fs = require('fs');
 
 var gitLog = require('git-log');
 var exec = require('child_process').exec;
-var filePath = {
-  jshintBase: {
-    src: ['./*.js', './*.json']
-  }
+var pth = {
+  src: './src/'
 };
 
-gulp.task('default', function() {
-  gulp.src(filePath.jshintBase.src)
+gulp.task('jshint', function() {
+  gulp.src(['./*.js*', pth.src + '**/*.js*'])
     .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter(jshintReporter));
 });
@@ -32,4 +31,23 @@ gulp.task('gitlog', function(done) {
 
     gitLog.createLog(tmpFilePath, logFilePath, done);
   });
+});
+
+function jsonConcat(o1, o2) {
+  for (var key in o2) {
+    o1[key] = o2[key];
+  }
+  return o1;
+}
+
+gulp.task('build', ['jshint'], function(done) {
+  var info = require(pth.src + 'info');
+  info.definitions = require(pth.src + 'definitions');
+
+  var pathsGet = require(pth.src + 'paths-get');
+  var pathsPost = require(pth.src + 'paths-post');
+
+  info.paths = jsonConcat(pathsGet, pathsPost);
+
+  fs.writeFile('index.json', new Buffer(JSON.stringify(info)), done);
 });
