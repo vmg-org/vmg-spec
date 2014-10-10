@@ -7,7 +7,7 @@ module.exports = {
     "get": {
       "operationId": "r1000",
       "tags": ["auth_issuer"],
-      "summary": "Get auth providers, include social_profile_arr for each auth provider",
+      "summary": "Get auth providers",
       "parameters": [],
       "responses": {
         "200": {
@@ -53,6 +53,22 @@ module.exports = {
           description: "Success",
           schema: {
             "$ref": pth.defs + "movie_template"
+          }
+        }
+      }
+    }
+  },
+  '/r1003': {
+    get: {
+      operationId: 'r1003',
+      tags: ["user_session"],
+      summary: 'Get user_session, include social_profile_item',
+      parameters: [],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            $ref: pth.defs + 'user_session'
           }
         }
       }
