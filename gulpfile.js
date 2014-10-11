@@ -46,8 +46,13 @@ gulp.task('build', ['jshint'], function(done) {
 
   var pathsGet = require(pth.src + 'paths-get');
   var pathsPost = require(pth.src + 'paths-post');
+  var pathsPut = require(pth.src + 'paths-put');
+  var pathsDel = require(pth.src + 'paths-del');
 
-  info.paths = jsonConcat(pathsGet, pathsPost);
+  var a = jsonConcat(pathsGet, pathsPost);
+  a = jsonConcat(a, pathsPut);
+  a = jsonConcat(a, pathsDel);
+  info.paths = a;
 
   fs.writeFile('index.json', new Buffer(JSON.stringify(info)), done);
 });
