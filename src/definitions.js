@@ -175,6 +175,20 @@ defs.episode_bid = {
   }
 };
 
+defs.user_profile = {
+  primaryKey: 'id',
+  properties: {
+    "id": {
+      "type": "integer",
+      "description": "Id of profile"
+    },
+    "is_blocked": {
+      "type": "boolean",
+      "description": "Whether the user is blocked"
+    }
+  }
+};
+
 defs.user_session = {
   "primaryKey": "id",
   "properties": {
