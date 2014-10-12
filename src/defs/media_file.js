@@ -35,8 +35,9 @@ module.exports = {
       "format": "int64"
     },
     "duration": {
-      "type": "number",
-      "description": "Original file and cutted files have diff duration"
+      "type": "integer",
+      "format": "int64",
+      "description": "Original file and cutted files have diff duration, in milliseconds"
     },
     "is_original": {
       "type": "boolean",
