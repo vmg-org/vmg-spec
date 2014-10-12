@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var path = require('path');
 var jshint = require('gulp-jshint');
 var jshintReporter = require('jshint-stylish');
 var fs = require('fs');
@@ -41,18 +42,20 @@ function jsonConcat(o1, o2) {
 }
 
 gulp.task('build', ['jshint'], function(done) {
-  var info = require(pth.src + 'info');
-  info.definitions = require(pth.src + 'definitions');
+  require(pth.src + 'definitions').run(path.resolve(pth.src + 'defs'), function(err, readyDefs) {
+    var info = require(pth.src + 'info');
+    info.definitions = readyDefs;
 
-  var pathsGet = require(pth.src + 'paths-get');
-  var pathsPost = require(pth.src + 'paths-post');
-  var pathsPut = require(pth.src + 'paths-put');
-  var pathsDel = require(pth.src + 'paths-del');
+    var pathsGet = require(pth.src + 'paths-get');
+    var pathsPost = require(pth.src + 'paths-post');
+    var pathsPut = require(pth.src + 'paths-put');
+    var pathsDel = require(pth.src + 'paths-del');
 
-  var a = jsonConcat(pathsGet, pathsPost);
-  a = jsonConcat(a, pathsPut);
-  a = jsonConcat(a, pathsDel);
-  info.paths = a;
+    var a = jsonConcat(pathsGet, pathsPost);
+    a = jsonConcat(a, pathsPut);
+    a = jsonConcat(a, pathsDel);
+    info.paths = a;
 
-  fs.writeFile('index.json', new Buffer(JSON.stringify(info)), done);
+    fs.writeFile('index.json', new Buffer(JSON.stringify(info)), done);
+  });
 });
