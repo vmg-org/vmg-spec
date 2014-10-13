@@ -16,20 +16,10 @@ a.w2000 = {
     },
     "required": true
   }],
-  "responses": {
-    "201": {
-      "description": "Success",
-      "schema": {
-        "$ref": pth.defs + "movie_template"
-      }
-    },
-    "400": {
-      "description": "Bad request"
-    }
-  },
   "security": {}
 };
 
+// public method, an user not auth yet
 a.w2001 = {
   tags: ['user_session'],
   summary: "Create an user session",
@@ -42,6 +32,21 @@ a.w2001 = {
       $ref: pth.defs + "user_session"
     }
   }]
+};
+
+a.w2002 = {
+  tags: ['episode_variant'],
+  summary: "Start to create an episode_variant with media_spec with original media file (not yet uploaded)",
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "Episode_variant with media_spec with media_file_arr (with one original video) - only mime type as id_of_container_format",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "episode_variant"
+    }
+  }],
+  security: {}
 };
 
 var result = {};

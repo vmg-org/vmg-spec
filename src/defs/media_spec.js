@@ -11,7 +11,7 @@ module.exports= {
       maxLength: 255
     },
     created: {
-      type: 'intenger',
+      type: 'integer',
       description: 'Created, unix timestamp'
     },
     preview_img_url: {
