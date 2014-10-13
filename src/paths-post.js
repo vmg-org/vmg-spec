@@ -34,6 +34,7 @@ a.w2001 = {
   }]
 };
 
+// TODO: #31! add security tag
 a.w2002 = {
   tags: ['episode_variant'],
   summary: "Start to create an episode_variant with media_spec with original media file (not yet uploaded)",
@@ -45,8 +46,7 @@ a.w2002 = {
     "schema": {
       $ref: pth.defs + "episode_variant"
     }
-  }],
-  security: {}
+  }]
 };
 
 var result = {};
