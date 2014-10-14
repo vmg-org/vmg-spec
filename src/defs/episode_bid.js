@@ -1,7 +1,11 @@
 module.exports = {
-  primaryKey: 'id_of_user_profile', // User may have only one bid at a time.
+  primaryKey: 'id', // User may have only one opened bid at a time (one bid without attached media spec)
   // When the user fill the bid (attach a video to episode), the bid will be removed
   properties: {
+    id: {
+      type: 'integer',
+      description: 'Id of bid'
+    },
     id_of_user_profile: {
       type: 'integer',
       description: 'Id of participant, who add this bid',
@@ -17,7 +21,7 @@ module.exports = {
       zref: {
         mdl: 'episode_template',
         fld: 'id',
-        del: 'restrict'
+        del: 'restrict' // if there are bids, an episode template can not be removed
       }
     },
     created: {

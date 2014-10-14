@@ -46,7 +46,7 @@ module.exports = {
     get: {
       operationId: "r1002",
       tags: ["movie_template"],
-      summary: "Get a movie_template, including episode_template_arr + episode_bid_count, episode_variant_count for each episode",
+      summary: "Get a movie_template, including episode_template_arr + episode_bid_count + episode_bid_count_with_media for each episode",
       parameters: [],
       responses: {
         200: {

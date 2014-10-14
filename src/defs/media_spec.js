@@ -1,4 +1,4 @@
-module.exports= {
+module.exports = {
   primaryKey: 'id',
   properties: {
     id: {
@@ -18,6 +18,10 @@ module.exports= {
       type: 'string',
       description: 'Image from a video to show as thumbnail', // first cadr or random or selected by an user
       maxLength: 3200
+    },
+    is_ready: {
+      type: 'boolean',
+      description: 'Whether the media have all converted and cutted media files'
     }
   }
 };

@@ -36,15 +36,15 @@ a.w2001 = {
 
 // TODO: #31! add security tag
 a.w2002 = {
-  tags: ['episode_variant'],
-  summary: "Start to create an episode_variant with media_spec with original media file (not yet uploaded)",
+  tags: ['bid_media'],
+  summary: "Start to create bid_media with media_spec with original media_file (not yet uploaded)",
   parameters: [{
     "in": "body",
     "name": "body",
-    "description": "Episode_variant with media_spec with media_file_arr (with one original video) - only mime type as id_of_container_format",
+    "description": "bid_media with media_spec with media_file_arr (with one original video) - only mime type as id_of_container_format",
     "required": true,
     "schema": {
-      $ref: pth.defs + "episode_variant"
+      $ref: pth.defs + "bid_media"
     }
   }]
 };
