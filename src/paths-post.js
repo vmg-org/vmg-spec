@@ -34,7 +34,6 @@ a.w2001 = {
   }]
 };
 
-// TODO: #31! add security tag
 a.w2002 = {
   tags: ['bid_media'],
   summary: "Start to create bid_media with media_spec with original media_file (not yet uploaded)",
@@ -46,7 +45,8 @@ a.w2002 = {
     "schema": {
       $ref: pth.defs + "bid_media"
     }
-  }]
+  }],
+  security: {}
 };
 
 var result = {};
