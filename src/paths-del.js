@@ -13,11 +13,6 @@ a.d4000 = {
     "description": "user_session id",
     "required": true
   }],
-  "responses": {
-    "204": {
-      "description": "Success"
-    }
-  },
   "security": {}
 };
 

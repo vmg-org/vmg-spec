@@ -62,7 +62,7 @@ module.exports = {
     get: {
       operationId: 'r1003',
       tags: ["user_session"],
-      summary: 'Get user_session, include social_profile_item',
+      summary: 'Get user_session, including social_profile_item',
       parameters: [],
       responses: {
         200: {

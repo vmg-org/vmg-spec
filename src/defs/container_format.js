@@ -4,7 +4,7 @@ module.exports = {
     "id": {
       "type": "string",
       "description": "Container format abbr",
-      "maxLength": 25
+      "maxLength": 100
     },
     "description": {
       "type": "string",

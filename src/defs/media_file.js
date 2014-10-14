@@ -17,7 +17,7 @@ module.exports = {
     "id_of_container_format": {
       "type": "string",
       "description": "Id of a container format",
-      "maxLength": 25,
+      "maxLength": 100,
       "zref": {
         "mdl": "container_format",
         "fld": "id",

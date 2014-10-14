@@ -15,12 +15,6 @@ module.exports = {
       "type": "string",
       "maxLength": 255,
       "description": "Main url of an issuer"
-    },
-    "social_profile_arr": {
-      "type": "array",
-      "items": {
-        "$ref": "social_profile"
-      }
     }
   }
 };

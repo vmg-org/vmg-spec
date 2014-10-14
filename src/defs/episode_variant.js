@@ -23,15 +23,6 @@ module.exports = {
         del: 'restrict'
       }
     },
-    id_of_user_profile: {
-      type: 'integer',
-      description: 'Id of participant, who add this variant',
-      zref: {
-        mdl: 'user_profile',
-        fld: 'id',
-        del: 'restrict' // need to delete all media_spec too
-      }
-    },
     created: {
       type: 'integer',
       description: 'Create date, unix timestamp'
