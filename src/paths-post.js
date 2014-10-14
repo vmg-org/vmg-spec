@@ -49,6 +49,21 @@ a.w2002 = {
   security: {}
 };
 
+a.w2003 = {
+  tags: ['job_source'],
+  summary: 'Create a job to create a source file (upload to a cloud)',
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "job_source",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "job_source"
+    }
+  }],
+  security: {}
+};
+
 var result = {};
 
 // Add opertionId = path of API
