@@ -1,19 +1,11 @@
 module.exports = {
   primaryKey: 'id', // User may have only one opened bid at a time (one bid without attached media spec)
-  // When the user fill the bid (attach a video to episode), the bid will be removed
+  // When the user fill the bid (attach a video to episode), the bid will be closed
+  // When the author (moderator) choose this bid as best vider, the bid will be removed (moves to episode_record)
   properties: {
     id: {
       type: 'integer',
-      description: 'Id of bid'
-    },
-    id_of_user_profile: {
-      type: 'integer',
-      description: 'Id of participant, who add this bid',
-      zref: {
-        mdl: 'user_profile',
-        fld: 'id',
-        del: 'cascade' // delete all bids, when an user removes
-      }
+      description: 'Id of a bid'
     },
     id_of_episode_template: {
       type: 'integer',
@@ -27,6 +19,20 @@ module.exports = {
     created: {
       type: 'integer',
       description: 'Create date, unix timestamp'
+    },
+    id_of_media_spec: {
+      type: 'integer',
+      description: 'Id of media spec',
+      zref: {
+        mdl: 'media_spec',
+        fld: 'id',
+        del: 'cascade'
+      }
+    },
+    moder_rating: {
+      type: 'integer',
+      description: 'Rating of author of the movie, best rating - to approved',
+      format: 'int16'
     }
   }
 };

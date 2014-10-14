@@ -35,15 +35,15 @@ a.w2001 = {
 };
 
 a.w2002 = {
-  tags: ['bid_media'],
-  summary: "Start to create bid_media with media_spec with original media_file (not yet uploaded)",
+  tags: ['episode_bid'],
+  summary: "Create a episode_bid with empty media_spec",
   parameters: [{
     "in": "body",
     "name": "body",
-    "description": "bid_media with media_spec with media_file_arr (with one original video) - only mime type as id_of_container_format",
+    "description": "episode_bid with media_spec_item",
     "required": true,
     "schema": {
-      $ref: pth.defs + "bid_media"
+      $ref: pth.defs + "episode_bid"
     }
   }],
   security: {}

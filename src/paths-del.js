@@ -7,12 +7,7 @@ var a = {};
 a.d4000 = {
   "tags": ["user_session"],
   "summary": "Log out, remove an user_session",
-  "parameters": [{
-    "in": "query",
-    "name": "sid",
-    "description": "user_session id",
-    "required": true
-  }],
+  "parameters": [],
   "security": {}
 };
 
