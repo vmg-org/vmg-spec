@@ -73,5 +73,27 @@ module.exports = {
         }
       }
     }
+  },
+  '/r1004': {
+    get: {
+      operationId: 'r1004',
+      tags: ["media_spec"],
+      summary: 'Get media_spec with media_file_arr',
+      "parameters": [{
+        "in": "query",
+        "name": "id",
+        "description": "id of media_spec",
+        "required": true
+      }],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            $ref: pth.defs + 'media_spec'
+          }
+        }
+      },
+      security: {}
+    }
   }
 };
