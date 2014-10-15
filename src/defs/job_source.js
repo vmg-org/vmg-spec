@@ -1,11 +1,6 @@
 module.exports = {
-  "primaryKey": "id",
+  "primaryKey": "id_of_media_spec",
   "properties": {
-    "id": {
-      "type": "string", // ID from Elastic Transcoder \d-\w
-      "maxLength": 50,
-      "description": "Id from Elastic Transcoder"
-    },
     "id_of_media_spec": {
       "type": "integer",
       "description": "This job for this media spec",
