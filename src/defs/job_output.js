@@ -6,7 +6,8 @@ module.exports = {
       description: 'Media spec id - id of job'
     },
     id_of_et_job: {
-      type: 'integer',
+      type: 'string',
+      maxLength: 255,
       description: 'The id that Elastic Transcoder assigned to the job'
     },
     id_of_job_status: {
