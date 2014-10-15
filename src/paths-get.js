@@ -95,5 +95,27 @@ module.exports = {
       },
       security: {}
     }
+  },
+  '/r1005': {
+    get: {
+      operationId: 'r1005',
+      tags: ['job_source'],
+      summary: 'Get job_source with status and media_spec and source_file (if exists)',
+      parameters: [{
+        "in": "query",
+        "name": "id",
+        "description": "id of job_source",
+        "required": true
+      }],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            $ref: pth.defs + 'job_source'
+          }
+        }
+      },
+      security: {}
+    }
   }
 };
