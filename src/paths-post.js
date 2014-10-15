@@ -64,6 +64,21 @@ a.w2003 = {
   security: {}
 };
 
+a.w2004 = {
+  tags: ['job_output'],
+  summary: 'Create a job to generate output files from a source file',
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "job_output",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "job_output"
+    }
+  }],
+  security: {}
+};
+
 var result = {};
 
 // Add opertionId = path of API

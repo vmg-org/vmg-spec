@@ -103,8 +103,8 @@ module.exports = {
       summary: 'Get job_source with status and media_spec and source_file (if exists)',
       parameters: [{
         "in": "query",
-        "name": "id",
-        "description": "id of job_source",
+        "name": "id_of_media_spec",
+        "description": "id of job_source (media_spec too)",
         "required": true
       }],
       responses: {
