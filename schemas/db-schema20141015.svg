@@ -995,20 +995,25 @@
          x="683.5"
          y="624.21936"
          style="font-size:14px"
-         id="tspan4195">- cutting_start</tspan><tspan
+         id="tspan4433">=======</tspan><tspan
          sodipodi:role="line"
          x="683.5"
          y="641.71936"
          style="font-size:14px"
-         id="tspan4197">- cutting_stop</tspan><tspan
+         id="tspan4195">- cutting_start</tspan><tspan
          sodipodi:role="line"
          x="683.5"
          y="659.21936"
          style="font-size:14px"
-         id="tspan4227">- progress_cutting</tspan><tspan
+         id="tspan4197">- cutting_stop</tspan><tspan
          sodipodi:role="line"
          x="683.5"
          y="676.71936"
+         style="font-size:14px"
+         id="tspan4227">- progress_cutting</tspan><tspan
+         sodipodi:role="line"
+         x="683.5"
+         y="694.21936"
          style="font-size:14px"
          id="tspan4233">- progress_creation</tspan></text>
     <text
