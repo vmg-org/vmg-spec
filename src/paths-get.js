@@ -117,5 +117,27 @@ module.exports = {
       },
       security: {}
     }
+  },
+  '/r1006': {
+    get: {
+      operationId: 'r1006',
+      tags: ['job_output'],
+      summary: 'Get job_output with status and media_spec and file_output (if exists)',
+      parameters: [{
+        "in": "query",
+        "name": "id_of_media_spec",
+        "description": "id of job_output (id_of_media_spec)",
+        "required": true
+      }],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            $ref: pth.defs + 'job_output'
+          }
+        }
+      },
+      security: {}
+    }
   }
 };
