@@ -79,6 +79,20 @@ a.w2004 = {
   security: {}
 };
 
+a.w2005 = {
+  tags: ['job_cut'],
+  summary: 'Create a job to cut output files',
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "job_cut",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "job_cut"
+    }
+  }],
+  security: {}
+};
 var result = {};
 
 // Add opertionId = path of API
