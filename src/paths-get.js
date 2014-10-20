@@ -161,5 +161,26 @@ module.exports = {
       },
       security: {}
     }
+  },
+  '/r1008': {
+    get: {
+      operationId: 'r1008',
+      tags: ['episode_bid'],
+      summary: 'Get episode_bid with episode_template_item (with movie_template_item)',
+      parameters: [{
+        "in": "query",
+        "name": "id_of_media_spec",
+        "description": "id of episode_bid (id_of_media_spec)",
+        "required": true
+      }],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            $ref: pth.defs + 'episode_bid'
+          }
+        }
+      }
+    }
   }
 };
