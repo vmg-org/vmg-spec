@@ -62,7 +62,7 @@ module.exports = {
     get: {
       operationId: 'r1003',
       tags: ["user_session"],
-      summary: 'Get user_session, including social_profile_item',
+      summary: 'Get own user_session, including social_profile_item',
       parameters: [],
       responses: {
         200: {
@@ -71,7 +71,8 @@ module.exports = {
             $ref: pth.defs + 'user_session'
           }
         }
-      }
+      },
+      security: {}
     }
   },
   '/r1004': {
