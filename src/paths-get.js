@@ -46,7 +46,7 @@ module.exports = {
     get: {
       operationId: "r1002",
       tags: ["movie_template"],
-      summary: "Get a movie_template, including episode_template_arr + episode_bid_count + episode_bid_count_with_media for each episode",
+      summary: "Get a movie_template with movie_genre_item with genre_tag_item",
       parameters: [],
       responses: {
         200: {
@@ -178,6 +178,30 @@ module.exports = {
           description: 'Success',
           schema: {
             $ref: pth.defs + 'episode_bid'
+          }
+        }
+      }
+    }
+  },
+  '/r1009': {
+    get: {
+      operationId: 'r1009',
+      tags: ['episode_template'],
+      summary: 'Get episode_template_arr, fitered by id_of_movie_template, with episode_bid_ready_count and episode_bid_non_ready_count',
+      parameters: [{
+        "in": "query",
+        "name": "id_of_movie_template",
+        "description": "id of movie template",
+        "required": true
+      }],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            "type": "array",
+            "items": {
+              $ref: pth.defs + 'episode_template'
+            }
           }
         }
       }
