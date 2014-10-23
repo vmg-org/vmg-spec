@@ -47,7 +47,12 @@ module.exports = {
       operationId: "r1002",
       tags: ["movie_template"],
       summary: "Get a movie_template with movie_genre_item with genre_tag_item",
-      parameters: [],
+      "parameters": [{
+        "in": "query",
+        "name": "id",
+        "description": "id of movie_template",
+        "required": true
+      }],
       responses: {
         200: {
           description: "Success",
