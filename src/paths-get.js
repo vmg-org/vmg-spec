@@ -26,7 +26,7 @@ module.exports = {
     "get": {
       "operationId": "r1001",
       "tags": ["movie_template"],
-      "summary": "Get all movie templates",
+      "summary": "Get top movie templates (10 newest)",
       "parameters": [],
       "responses": {
         "200": {
@@ -38,8 +38,7 @@ module.exports = {
             }
           }
         }
-      },
-      "security": {}
+      }
     }
   },
   '/r1002': {
