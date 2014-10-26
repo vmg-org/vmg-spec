@@ -6,7 +6,7 @@ var a = {};
 
 a.w2000 = {
   "tags": ["movie_template"],
-  "summary": "Create a movie_template with episode_template_arr",
+  "summary": "Create a movie_template with episode_template_arr and movie_genre_item",
   "parameters": [{
     "in": "body",
     "name": "body",

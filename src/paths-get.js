@@ -45,10 +45,11 @@ module.exports = {
     get: {
       operationId: "r1002",
       tags: ["movie_template"],
-      summary: "Get a movie_template with movie_genre_item with genre_tag_item",
+      summary: "Get a movie_template with movie_creator_item and movie_genre_item with genre_tag_item",
       "parameters": [{
         "in": "query",
         "name": "id",
+        "type": "integer",
         "description": "id of movie_template",
         "required": true
       }],
@@ -87,6 +88,7 @@ module.exports = {
       "parameters": [{
         "in": "query",
         "name": "id",
+        "type": "integer",
         "description": "id of media_spec",
         "required": true
       }],
@@ -109,6 +111,7 @@ module.exports = {
       parameters: [{
         "in": "query",
         "name": "id_of_media_spec",
+        "type": "integer",
         "description": "id of job_source (media_spec too)",
         "required": true
       }],
@@ -131,6 +134,7 @@ module.exports = {
       parameters: [{
         "in": "query",
         "name": "id_of_media_spec",
+        "type": "integer",
         "description": "id of job_output (id_of_media_spec)",
         "required": true
       }],
@@ -153,6 +157,7 @@ module.exports = {
       parameters: [{
         "in": "query",
         "name": "id_of_media_spec",
+        "type": "integer",
         "description": "id of job_cut (id_of_media_spec)",
         "required": true
       }],
@@ -175,6 +180,7 @@ module.exports = {
       parameters: [{
         "in": "query",
         "name": "id_of_media_spec",
+        "type": "integer",
         "description": "id of episode_bid (id_of_media_spec)",
         "required": true
       }],
@@ -192,10 +198,11 @@ module.exports = {
     get: {
       operationId: 'r1009',
       tags: ['episode_template'],
-      summary: 'Get episode_template_arr, fitered by id_of_movie_template, with episode_bid_ready_count and episode_bid_non_ready_count',
+      summary: 'Get episode_template_arr, fitered by id_of_movie_template, with episode_bid_count and episode_bid_count_ready',
       parameters: [{
         "in": "query",
         "name": "id_of_movie_template",
+        "type": "integer",
         "description": "id of movie template",
         "required": true
       }],
@@ -206,6 +213,35 @@ module.exports = {
             "type": "array",
             "items": {
               $ref: pth.defs + 'episode_template'
+            }
+          }
+        }
+      }
+    }
+  },
+  '/r1010': {
+    get: {
+      operationId: 'r1010',
+      tags: ['episode_bid'],
+      summary: 'Get episode_bid_arr, filtered by array of id_of_episode_template; which created by current user_profile',
+      parameters: [{
+        "in": "query",
+        "name": "id_of_episode_template_arr",
+        type: "array",
+        collectionFormat: "csv", //comma separated values foo,bar.
+        items: {
+          type: "integer"
+        },
+        "description": "array: id of episode template",
+        "required": true
+      }],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            "type": "array",
+            "items": {
+              $ref: pth.defs + 'episode_bid'
             }
           }
         }
