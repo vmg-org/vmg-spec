@@ -245,7 +245,8 @@ module.exports = {
             }
           }
         }
-      }
+      },
+      security: {}
     }
   }
 };
