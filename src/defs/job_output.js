@@ -5,7 +5,7 @@ module.exports = {
       type: 'integer',
       description: 'Media spec id - id of job',
       zref: {
-        tbl: 'media_spec',
+        mdl: 'media_spec',
         fld: 'id',
         del: 'cascade'
       }
@@ -20,7 +20,7 @@ module.exports = {
       maxLength: 50,
       description: 'Status, like submitted, progressind...',
       zref: {
-        tbl: 'job_status',
+        mdl: 'job_status',
         fld: 'id',
         del: 'restrict'
       }
