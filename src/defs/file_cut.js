@@ -7,7 +7,7 @@ module.exports = {
       zref: {
         mdl: 'media_spec',
         fld: 'id',
-        del: 'cascade'
+        del: 'restrict' // media_files can not exists without media spec
       }
     },
     id_of_media_file: {

@@ -3,7 +3,12 @@ module.exports = {
   properties: {
     id_of_media_spec: {
       type: 'integer',
-      description: 'Media spec id - id of job'
+      description: 'Media spec id - id of job',
+      zref: {
+        tbl: 'media_spec',
+        fld: 'id',
+        del: 'cascade'
+      }
     },
     id_of_et_job: {
       type: 'string',
@@ -13,7 +18,12 @@ module.exports = {
     id_of_job_status: {
       type: 'string',
       maxLength: 50,
-      description: 'Status, like submitted, progressind...'
+      description: 'Status, like submitted, progressind...',
+      zref: {
+        tbl: 'job_status',
+        fld: 'id',
+        del: 'restrict'
+      }
     },
     status_detail: {
       type: 'string',
