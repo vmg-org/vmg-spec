@@ -248,5 +248,26 @@ module.exports = {
       },
       security: {}
     }
+  },
+  '/r1011': {
+    get: {
+      operationId: 'r1011',
+      tags: ['episode_bid'],
+      summary: 'Get not-uploaded episode_bid_arr, created by current user_profile: usually it - one record (or null)',
+      parameters: [],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            "type": "array",
+            "items": {
+              $ref: pth.defs + 'episode_bid'
+            }
+          }
+        }
+      },
+      security: {}
+    }
   }
+
 };
