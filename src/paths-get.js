@@ -268,6 +268,25 @@ module.exports = {
       },
       security: {}
     }
+  },
+  '/r1012': {
+    get: {
+      operationId: 'r1012',
+      tags: ['movie_template'],
+      summary: 'Get movie_template_arr where created <= now < finished, created by current user',
+      parameters: [],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            "type": "array",
+            "items": {
+              $ref: pth.defs + 'movie_template'
+            }
+          }
+        }
+      },
+      security: {}
+    }
   }
-
 };
