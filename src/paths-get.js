@@ -83,20 +83,20 @@ module.exports = {
   '/r1004': {
     get: {
       operationId: 'r1004',
-      tags: ["media_spec"],
-      summary: 'Get media_spec with media_file_arr',
+      tags: ["file_cut"],
+      summary: 'Get array of file_cut with media_file_item, created by current user',
       "parameters": [{
         "in": "query",
-        "name": "id",
+        "name": "id_of_media_spec",
         "type": "integer",
-        "description": "id of media_spec",
+        "description": "id of media_spec, id of episode bid",
         "required": true
       }],
       responses: {
         200: {
           description: 'Success',
           schema: {
-            $ref: pth.defs + 'media_spec'
+            $ref: pth.defs + 'file_cut'
           }
         }
       },
