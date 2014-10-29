@@ -198,7 +198,7 @@ module.exports = {
     get: {
       operationId: 'r1009',
       tags: ['episode_template'],
-      summary: 'Get episode_template_arr, fitered by id_of_movie_template, with episode_bid_count and episode_bid_count_ready',
+      summary: 'Get episode_template_arr, fitered by id_of_movie_template, with episode_bid_count and episode_bid_count_ready; order by order_in_movie',
       parameters: [{
         "in": "query",
         "name": "id_of_movie_template",
@@ -282,6 +282,26 @@ module.exports = {
             "type": "array",
             "items": {
               $ref: pth.defs + 'movie_template'
+            }
+          }
+        }
+      },
+      security: {}
+    }
+  },
+  '/r1014': {
+    get: {
+      operationId: 'r1014',
+      tags: ['episode_bid'],
+      summary: 'Get episode_bid_arr where media_spec.is_ready = true, created by current user. With episode_template_item with movie_template_item',
+      parameters: [],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            "type": "array",
+            "items": {
+              $ref: pth.defs + 'episode_bid'
             }
           }
         }

@@ -46,7 +46,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="579.65646"
-     inkscape:cy="488.24528"
+     inkscape:cy="528.24528"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1111,33 +1111,6 @@
          id="tspan4451"
          x="752"
          y="830" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="262.5"
-       y="96.719391"
-       id="text4457"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4459"
-         x="262.5"
-         y="96.719391"
-         style="font-size:14px;font-weight:bold">best_bid</tspan><tspan
-         sodipodi:role="line"
-         x="262.5"
-         y="114.21939"
-         id="tspan4461"
-         style="font-size:14px">- id_of_episode_template</tspan><tspan
-         sodipodi:role="line"
-         x="262.5"
-         y="131.71939"
-         id="tspan4463"
-         style="font-size:14px">- id_of_bid</tspan><tspan
-         sodipodi:role="line"
-         x="262.5"
-         y="149.21939"
-         id="tspan4465"
-         style="font-size:14px">- when_approved</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
