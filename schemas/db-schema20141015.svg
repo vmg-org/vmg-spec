@@ -46,7 +46,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="579.65646"
-     inkscape:cy="528.24528"
+     inkscape:cy="248.24528"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1138,5 +1138,17 @@
          y="762.38684"
          style="font-size:14px"
          id="tspan4233-5" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="581.5"
+       y="532.71936"
+       id="text4426"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4428"
+         x="581.5"
+         y="532.71936"
+         style="font-size:14px">add duration here</tspan></text>
   </g>
 </svg>

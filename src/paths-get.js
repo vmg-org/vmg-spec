@@ -308,5 +308,31 @@ module.exports = {
       },
       security: {}
     }
+  },
+  '/r1015': {
+    get: {
+      operationId: 'r1015',
+      tags: ['episode_bid'],
+      summary: 'Get episode_bid_arr where media_spec.is_ready = true, created by any user. With media_spec_item. Filtered by id_of_episode_template',
+      parameters: [{
+        "in": "query",
+        "name": "id_of_episode_template",
+        "type": "integer",
+        "description": "id of episode_template",
+        "required": true
+      }],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            "type": "array",
+            "items": {
+              $ref: pth.defs + 'episode_bid'
+            }
+          }
+        }
+      }
+      //      security: {} - usually only for author, but in this case - for all users
+    }
   }
 };
