@@ -84,7 +84,7 @@ module.exports = {
     get: {
       operationId: 'r1004',
       tags: ["file_cut"],
-      summary: 'Get array of file_cut with media_file_item, created by current user',
+      summary: 'Get array of file_cut with media_file_item, created by any user',
       "parameters": [{
         "in": "query",
         "name": "id_of_media_spec",
@@ -99,8 +99,7 @@ module.exports = {
             $ref: pth.defs + 'file_cut'
           }
         }
-      },
-      security: {}
+      }
     }
   },
   '/r1005': {
