@@ -6,7 +6,7 @@ var a = {};
 
 a.w2000 = {
   "tags": ["movie_template"],
-  "summary": "Create a movie_template with episode_template_arr and movie_genre_item",
+  "summary": "Create a movie_template with episode_template_arr and movie_genre_item. Update - if id exists",
   "parameters": [{
     "in": "body",
     "name": "body",
@@ -93,6 +93,23 @@ a.w2005 = {
   }],
   security: {}
 };
+
+a.w2006 = {
+  tags: ['episode_bid'],
+  summary: "Update an episode_bid.moder_rating",
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "episode_bid",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "episode_bid"
+    }
+  }],
+  // only for movie creator (or site moderator)
+  security: {}
+};
+
 var result = {};
 
 // Add opertionId = path of API
