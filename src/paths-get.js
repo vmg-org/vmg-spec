@@ -332,6 +332,31 @@ module.exports = {
         }
       }
       //      security: {} - usually only for author, but in this case - for all users
+    },
+    '/r1016': {
+      get: {
+        operationId: 'r1016',
+        tags: ['episode_template'],
+        summary: 'Get episode_template_arr with episode_bid_item_best with media_spec_item with file_cut_item with media_file_item. Filtered by id_of_movie_template',
+        parameters: [{
+          "in": "query",
+          "name": "id_of_movie_template",
+          "type": "integer",
+          "description": "id of movie_template",
+          "required": true
+        }],
+        responses: {
+          200: {
+            description: 'Success',
+            schema: {
+              "type": "array",
+              "items": {
+                $ref: pth.defs + 'episode_template'
+              }
+            }
+          }
+        }
+      }
     }
   }
 };
