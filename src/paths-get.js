@@ -358,5 +358,24 @@ module.exports = {
         }
       }
     }
+  },
+  '/r1017': {
+    get: {
+      operationId: 'r1017',
+      tags: ['movie_template'],
+      summary: 'Get movie_template_arr, where episode_bid_best_count = 3',
+      parameters: [],
+      responses: {
+        200: {
+          description: 'Success',
+          schema: {
+            "type": "array",
+            "items": {
+              $ref: pth.defs + 'movie_template'
+            }
+          }
+        }
+      }
+    }
   }
 };
