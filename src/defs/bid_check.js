@@ -1,7 +1,7 @@
 module.exports = {
   "primaryKey": "id_of_media_spec",
   "properties": {
-    "id": {
+    "id_of_media_spec": {
       "type": "integer",
       "description": "Id of a bid",
       "zref": {
