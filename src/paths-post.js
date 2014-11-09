@@ -110,6 +110,23 @@ a.w2006 = {
   security: {}
 };
 
+// Replacement of prev
+a.w2007 = {
+  tags: ['bid_check'],
+  summary: "Create a bid_check record, delete if is_approved - null",
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "bid_check",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "bid_check"
+    }
+  }],
+  // only for movie creator (or site moderator)
+  security: {}
+};
+
 var result = {};
 
 // Add opertionId = path of API
