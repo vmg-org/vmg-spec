@@ -94,23 +94,7 @@ a.w2005 = {
   security: {}
 };
 
-a.w2006 = {
-  tags: ['episode_bid'],
-  summary: "Update an episode_bid.moder_rating",
-  parameters: [{
-    "in": "body",
-    "name": "body",
-    "description": "episode_bid",
-    "required": true,
-    "schema": {
-      $ref: pth.defs + "episode_bid"
-    }
-  }],
-  // only for movie creator (or site moderator)
-  security: {}
-};
-
-// Replacement of prev
+// Replacement of w2006
 a.w2007 = {
   tags: ['bid_check'],
   summary: "Create a bid_check record, delete if is_approved === null",

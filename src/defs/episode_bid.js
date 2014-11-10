@@ -24,11 +24,6 @@ module.exports = {
     created: {
       type: 'integer',
       description: 'Create date, unix timestamp'
-    },
-    moder_rating: {
-      type: 'integer',
-      description: 'Rating of author of the movie, best rating - to approved',
-      format: 'int16'
     }
   }
 };
