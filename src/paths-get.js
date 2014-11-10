@@ -312,7 +312,7 @@ module.exports = {
     get: {
       operationId: 'r1015',
       tags: ['episode_bid'],
-      summary: 'Get episode_bid_arr where media_spec.is_ready = true, created by any user. With media_spec_item. Filtered by id_of_episode_template',
+      summary: 'Get episode_bid_arr where media_spec.is_ready = true, created by any user. With media_spec_item and bid_check_item. Filtered by id_of_episode_template',
       parameters: [{
         "in": "query",
         "name": "id_of_episode_template",
