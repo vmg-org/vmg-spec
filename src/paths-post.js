@@ -127,7 +127,7 @@ a.w2007 = {
   security: {}
 };
 
-a.w2007 = {
+a.w2008 = {
   tags: ['bid_rating'],
   summary: "Create a bid_rating record, delete if rating === null",
   parameters: [{
