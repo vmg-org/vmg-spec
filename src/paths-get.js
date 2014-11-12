@@ -175,7 +175,7 @@ module.exports = {
     get: {
       operationId: 'r1008',
       tags: ['episode_bid'],
-      summary: 'Get episode_bid with episode_template_item (with movie_template_item)',
+      summary: 'Get episode_bid with episode_template_item (with movie_template_item) and media_spec_item with all jobs',
       parameters: [{
         "in": "query",
         "name": "id_of_media_spec",
