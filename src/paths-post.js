@@ -127,6 +127,22 @@ a.w2008 = {
   security: {}
 };
 
+a.w2009 = {
+  tags: ["job_output"],
+  summary: "DELETE a job_output. Delete array of file_output for this job. Delete array of media_file for this job. Delete these files from a file storage, and their snapshots (if exist). All of these objects can be deleted only if no job_cut yet",
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "job_output",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "job_output"
+    }
+  }],
+  // only for media creator (or site moderator)
+  security: {}
+};
+
 var result = {};
 
 // Add opertionId = path of API
