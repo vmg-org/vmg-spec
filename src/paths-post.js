@@ -159,6 +159,21 @@ a.w2010 = {
   security: {}
 };
 
+a.w2011 = {
+  "tags": ["user_session"],
+  "summary": "Log out, remove an user_session",
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "user_session, might be empty, removes by session id in the AUTH header",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "user_session"
+    }
+  }],
+  "security": {}
+};
+
 var result = {};
 
 // Add opertionId = path of API
