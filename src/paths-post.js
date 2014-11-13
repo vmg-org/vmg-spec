@@ -143,6 +143,22 @@ a.w2009 = {
   security: {}
 };
 
+a.w2010 = {
+  tags: ["episode_bid"],
+  summary: "DELETE an episode_bid with a media_spec and media_owner. Only if not yet uploaded. Like an empty bid",
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "episode_bid",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "episode_bid"
+    }
+  }],
+  // only for media creator (or site moderator)
+  security: {}
+};
+
 var result = {};
 
 // Add opertionId = path of API

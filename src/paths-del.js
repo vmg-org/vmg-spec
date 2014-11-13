@@ -11,19 +11,6 @@ a.d4000 = {
   "security": {}
 };
 
-a.d4001 = {
-  tags: ['episode_bid'],
-  summary: 'Delete a non-uploaded episode_bid and media_spec too (with is_ready = false)',
-  parameters: [{
-    "in": "query",
-    "name": "id_of_media_spec",
-    "description": "Id of episode_bid and id of media_spec",
-    "required": true,
-    "type": "integer"
-  }],
-  security: {}
-};
-
 var result = {};
 
 // Add opertionId = path of API
