@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="1024"
+   height="1052.3622"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="332.61323"
-     inkscape:cy="29.858849"
+     inkscape:cx="518.45565"
+     inkscape:cy="158.85885"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,7 +54,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.39999998000000003;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:1.39999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2985"
        width="134"
        height="72"
@@ -72,7 +72,7 @@
          x="330.3934"
          y="117.94797">Source media</tspan></text>
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.55023515000000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:1.55023515;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3759"
        width="156.84976"
        height="73.849762"
@@ -86,11 +86,11 @@
        id="text3761"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3763"
          x="158"
-         y="271.36218">mp4 + 240p</tspan></text>
+         y="271.36218"
+         id="tspan4501">preset: mp4 + 240p</tspan></text>
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.57315074999999993;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:1.57315075;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3759-6"
        width="170.82684"
        height="69.826851"
@@ -106,18 +106,18 @@
          sodipodi:role="line"
          id="tspan3763-3"
          x="437.5"
-         y="270.86218">webm + 240p</tspan></text>
+         y="270.86218">preset: webm + 240p</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="154"
-       y="234.36218"
+       x="156"
+       y="235.36218"
        id="text3808"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3810"
-         x="154"
-         y="234.36218">ConvertedToCut</tspan></text>
+         x="156"
+         y="235.36218">ConvertedToCut</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -220,7 +220,7 @@
          sodipodi:role="line"
          id="tspan3884"
          x="292.0351"
-         y="327.57776">Thumbnails Small</tspan><tspan
+         y="327.57776">Frame Thumbnails</tspan><tspan
          sodipodi:role="line"
          x="292.0351"
          y="345.07776"
@@ -246,7 +246,7 @@
          sodipodi:role="line"
          id="tspan3884-7"
          x="293.44931"
-         y="550.66992">Thumbnails Medium</tspan><tspan
+         y="550.66992">Base Thumbnails</tspan><tspan
          sodipodi:role="line"
          x="293.44931"
          y="568.16992"
@@ -351,14 +351,14 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="681"
-       y="115.36218"
+       x="698"
+       y="113.36218"
        id="text4233"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4235"
-         x="681"
-         y="115.36218">source</tspan></text>
+         x="698"
+         y="113.36218">src</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -374,58 +374,58 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="665"
-       y="246.36218"
+       x="700"
+       y="248.36218"
        id="text4241"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4243"
-         x="665"
-         y="246.36218">converted</tspan></text>
+         x="700"
+         y="248.36218"
+         id="tspan4543">pre</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="635"
-       y="347.36218"
+       x="688"
+       y="349.36218"
        id="text4245"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4247"
-         x="635"
-         y="347.36218">sm_snapshots</tspan></text>
+         x="688"
+         y="349.36218">frame</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="681"
-       y="475.36218"
+       x="708"
+       y="477.36218"
        id="text4249"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4251"
-         x="681"
-         y="475.36218">cutted</tspan></text>
+         x="708"
+         y="477.36218">dst</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="629"
+       x="699"
        y="567.36218"
        id="text4253"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4255"
-         x="629"
-         y="567.36218">md_snapshots</tspan></text>
+         x="699"
+         y="567.36218">thmb</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="681"
-       y="716.36218"
+       x="692"
+       y="719.36218"
        id="text4257"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4259"
-         x="681"
-         y="716.36218">cut720</tspan></text>
+         x="692"
+         y="719.36218">dst720</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -440,80 +440,217 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="160"
-       y="801.36218"
+       x="148"
+       y="818.36218"
        id="text4265"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4267"
-         x="160"
-         y="801.36218">- All files created from a source file. </tspan><tspan
+         x="148"
+         y="818.36218">- All files created from a source file. </tspan><tspan
          sodipodi:role="line"
-         x="160"
-         y="818.86218"
+         x="148"
+         y="835.86218"
          id="tspan4269">- Maximum size of a source file = 50MB</tspan><tspan
          sodipodi:role="line"
-         x="160"
-         y="836.36218"
+         x="148"
+         y="853.36218"
          id="tspan4273">- No time limit (a cloud can control only file size)</tspan><tspan
          sodipodi:role="line"
-         x="160"
-         y="853.86218"
+         x="148"
+         y="870.86218"
          id="tspan4279">- During conversion: pay only for output duration</tspan><tspan
          sodipodi:role="line"
-         x="160"
-         y="871.36218"
-         id="tspan4299">- Use diff buckets to store diff types of files </tspan><tspan
+         x="148"
+         y="888.36218"
+         id="tspan4299">- Use diff buckets to </tspan><tspan
          sodipodi:role="line"
-         x="160"
-         y="888.86218"
-         id="tspan4301">to possible sync between buckets (one-type sync)</tspan><tspan
+         x="148"
+         y="905.86218"
+         id="tspan4723">   - store diff types of files</tspan><tspan
          sodipodi:role="line"
-         x="160"
-         y="906.36218"
+         x="148"
+         y="923.36218"
+         id="tspan4301">   - sync between buckets (one-type sync)</tspan><tspan
+         sodipodi:role="line"
+         x="148"
+         y="940.86218"
+         id="tspan4725">   - diff CORS configs (for src and other)</tspan><tspan
+         sodipodi:role="line"
+         x="148"
+         y="958.36218"
+         id="tspan4547">- Pre bucket - remove after cutting</tspan><tspan
+         sodipodi:role="line"
+         x="148"
+         y="975.86218"
+         id="tspan4551">- Frame bucket - remove after cutting</tspan><tspan
+         sodipodi:role="line"
+         x="148"
+         y="993.36218"
+         id="tspan4549" /><tspan
+         sodipodi:role="line"
+         x="148"
+         y="1010.8622"
          id="tspan4277" /><tspan
          sodipodi:role="line"
-         x="160"
-         y="923.86218"
+         x="148"
+         y="1028.3622"
          id="tspan4275" /><tspan
          sodipodi:role="line"
-         x="160"
-         y="941.36218"
+         x="148"
+         y="1045.8622"
          id="tspan4271" /></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="392"
-       y="926.36218"
-       id="text4281"
+       x="813"
+       y="25.362183"
+       id="text4481"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4283"
-         x="392"
-         y="926.36218">- source:            id_of_ms</tspan><tspan
+         id="tspan4483"
+         x="813"
+         y="25.362183" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="828"
+       y="39.362183"
+       id="text4485"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="392"
-         y="943.86218"
-         id="tspan4285">- converted:      id_of_ms.mime_type</tspan><tspan
+         id="tspan4487"
+         x="828"
+         y="39.362183"
+         style="font-weight:bold">NAME_FORMAT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="827"
+       y="115.36218"
+       id="text4489"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="392"
-         y="961.36218"
-         id="tspan4287">- cutted:            id_of_ms_start_end.mime_type</tspan><tspan
+         id="tspan4491"
+         x="827"
+         y="115.36218">/id</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="827"
+       y="245.36218"
+       id="text4493"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="392"
-         y="978.86218"
-         id="tspan4289">- cutted_hd1:    id_of_ms_start_end.mime_type</tspan><tspan
+         id="tspan4495"
+         x="827"
+         y="245.36218">/id.ext</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="831"
+       y="347.36218"
+       id="text4497"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="392"
-         y="996.36218"
-         id="tspan4291">- cutted_hd2:    id_of_ms_start_end.mime_type</tspan><tspan
+         id="tspan4499"
+         x="831"
+         y="347.36218">/id/frame_number.ext</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="833"
+       y="476.36218"
+       id="text4505"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="392"
-         y="1013.8622"
-         id="tspan4293">- snapshotLow:  id_of_ms/second_number.png</tspan><tspan
+         id="tspan4507"
+         x="833"
+         y="476.36218">/id.ext</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="837"
+       y="563.36218"
+       id="text4509"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="392"
-         y="1031.3622"
-         id="tspan4295">- snapshotHigh: id_of_ms/second_number.png</tspan></text>
+         id="tspan4511"
+         x="837"
+         y="563.36218">/id/frame_number.ext</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="838"
+       y="718.36218"
+       id="text4513"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4515"
+         x="838"
+         y="718.36218">/id.ext</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="577"
+       y="819.36218"
+       id="text4517"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4519"
+         x="577"
+         y="819.36218">Conversion:</tspan><tspan
+         sodipodi:role="line"
+         x="577"
+         y="836.86218"
+         id="tspan4531">id of a preset can be changed later</tspan><tspan
+         sodipodi:role="line"
+         x="577"
+         y="854.36218"
+         id="tspan4521">dimension can be changed with preset</tspan><tspan
+         sodipodi:role="line"
+         x="577"
+         y="871.86218"
+         id="tspan4525">only a format stay the same</tspan><tspan
+         sodipodi:role="line"
+         x="577"
+         y="889.36218"
+         id="tspan4527">format can be included to ext</tspan><tspan
+         sodipodi:role="line"
+         x="577"
+         y="906.86218"
+         id="tspan4529">if a preset is not pointed - you can't know file info </tspan><tspan
+         sodipodi:role="line"
+         x="577"
+         y="924.36218"
+         id="tspan4535">  (when default preset is changed) - save it in db</tspan><tspan
+         sodipodi:role="line"
+         x="577"
+         y="941.86218"
+         id="tspan4539">It will be good to re-generate all files during preset changing</tspan><tspan
+         sodipodi:role="line"
+         x="577"
+         y="959.36218"
+         id="tspan4541" /><tspan
+         sodipodi:role="line"
+         x="577"
+         y="976.86218"
+         id="tspan4533" /><tspan
+         sodipodi:role="line"
+         x="577"
+         y="994.36218"
+         id="tspan4523" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="20"
+       y="41.362183"
+       id="text4553"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4555"
+         x="20"
+         y="41.362183"
+         style="font-weight:bold">JOB_NAME</tspan></text>
   </g>
 </svg>
