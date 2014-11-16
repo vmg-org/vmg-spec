@@ -1,6 +1,16 @@
+/** 
+ * Generator of model definitions
+ * @module
+ */
+
 var fs = require('fs');
 var path = require('path');
 
+/**
+ * Run a generator
+ * @param {String} defsFolder - A folder with definition files
+ * @param {Function} next - Next
+ */
 exports.run = function(defsFolder, next) {
   fs.readdir(defsFolder, function(err, fileNames) {
     if (err) {

@@ -1,4 +1,13 @@
-var cloneJson = function(obj) {
+/**
+ * App helper
+ * @module
+ */
+
+/**
+ * Clone json object
+ * @param {Object} obj - Initial object
+ */
+exports.cloneJson = function(obj) {
   if (obj === null || typeof(obj) !== 'object') {
     return obj;
   }
@@ -12,7 +21,5 @@ var cloneJson = function(obj) {
   }
   return temp;
 };
-
-exports.cloneJson = cloneJson;
 
 module.exports = exports;

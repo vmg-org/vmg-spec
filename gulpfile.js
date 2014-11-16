@@ -1,6 +1,5 @@
 /**
  * Chore tasks
- * @todo #44! send DEL methods to POST - HTML forms and clean CORS compability
  * @todo #44! separate model defenition and API methods
  *            model - for db building
  *            methods - for API

@@ -7,5 +7,6 @@
 /dev/
 /doc/
 /log/
+/out/
 .ftppass
 set-env-release.sh
