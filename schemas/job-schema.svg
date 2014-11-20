@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="job-schema.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="436.30676"
+     inkscape:cy="549.61289"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="34.285679"
+       y="390.93362"
+       id="text2985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="34.285679"
+         y="390.93362"
+         id="tspan2991"
+         style="font-weight:normal;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">task_forecast</tspan><tspan
+         sodipodi:role="line"
+         x="34.285679"
+         y="415.93362"
+         id="tspan2995">- id_of_task = 345</tspan><tspan
+         sodipodi:role="line"
+         x="34.285679"
+         y="440.93362"
+         id="tspan3055">- plan_started=4:30</tspan><tspan
+         sodipodi:role="line"
+         x="34.285679"
+         y="465.93362"
+         id="tspan3200">- plan_finished=5:30</tspan><tspan
+         sodipodi:role="line"
+         x="34.285679"
+         y="490.93362"
+         id="tspan2997" /><tspan
+         sodipodi:role="line"
+         x="34.285679"
+         y="515.93359"
+         id="tspan2989" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="405.71429"
+       y="68.076462"
+       id="text2999"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="405.71429"
+         y="68.076462"
+         id="tspan3007"
+         style="font-weight:normal;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">queue_of_planned_job</tspan><tspan
+         sodipodi:role="line"
+         x="405.71429"
+         y="93.076462"
+         id="tspan3003">- order=1</tspan><tspan
+         sodipodi:role="line"
+         x="405.71429"
+         y="118.07646"
+         id="tspan3005">- id_of_planned_job=345</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="426.42859"
+       y="598.79077"
+       id="text3011"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3013"
+         x="426.42859"
+         y="598.79077"><tspan
+   style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+   id="tspan3128">task</tspan>1</tspan><tspan
+         sodipodi:role="line"
+         x="426.42859"
+         y="616.29077"
+         id="tspan3015">- id = 345</tspan><tspan
+         sodipodi:role="line"
+         x="426.42859"
+         y="633.79077"
+         id="tspan3168">- object=soup</tspan><tspan
+         sodipodi:role="line"
+         x="426.42859"
+         y="651.29077"
+         id="tspan3174">- verb=make</tspan><tspan
+         sodipodi:role="line"
+         x="426.42859"
+         y="668.79077"
+         id="tspan3172">- description = with meat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="397.14285"
+       y="782.36224"
+       id="text3027"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3029"
+         x="397.14285"
+         y="782.36224">task2</tspan><tspan
+         sodipodi:role="line"
+         x="397.14285"
+         y="807.36224"
+         id="tspan3031">- id = 346</tspan><tspan
+         sodipodi:role="line"
+         x="397.14285"
+         y="832.36224"
+         id="tspan3033">- name=make diagram</tspan><tspan
+         sodipodi:role="line"
+         x="397.14285"
+         y="857.36224"
+         id="tspan3035">- description=about jobs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="48.571426"
+       y="680.93359"
+       id="text3037"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3039"
+         x="48.571426"
+         y="680.93359"
+         style="font-weight:normal;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">task_priority</tspan><tspan
+         sodipodi:role="line"
+         x="48.571426"
+         y="705.93359"
+         id="tspan3041">- id_of_task</tspan><tspan
+         sodipodi:role="line"
+         x="48.571426"
+         y="730.93359"
+         id="tspan3043">- priority</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="50"
+       y="779.50507"
+       id="text3045"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3047"
+         x="50"
+         y="779.50507">345 - middle</tspan><tspan
+         sodipodi:role="line"
+         x="50"
+         y="804.50507"
+         id="tspan3049">346 - high</tspan><tspan
+         sodipodi:role="line"
+         x="50"
+         y="829.50507"
+         id="tspan3099">347 - middle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="60.000004"
+       y="58.076469"
+       id="text3057"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3059"
+         x="60.000004"
+         y="58.076469"
+         style="font-weight:normal;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">people</tspan><tspan
+         sodipodi:role="line"
+         x="60.000004"
+         y="83.076469"
+         id="tspan3061">- id=IvanRave</tspan><tspan
+         sodipodi:role="line"
+         x="60.000004"
+         y="108.07647"
+         id="tspan3063">- name=Ivan</tspan><tspan
+         sodipodi:role="line"
+         x="60.000004"
+         y="133.07648"
+         id="tspan3126">- lname=Rave</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="11.428569"
+       y="190.93359"
+       id="text3065"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3067"
+         x="11.428569"
+         y="190.93359"
+         style="font-weight:normal;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">job_progress_report</tspan><tspan
+         sodipodi:role="line"
+         x="11.428569"
+         y="215.93359"
+         id="tspan3069">- id_of_task=346</tspan><tspan
+         sodipodi:role="line"
+         x="11.428569"
+         y="240.93359"
+         id="tspan3120">- real_started=03:00</tspan><tspan
+         sodipodi:role="line"
+         x="11.428569"
+         y="265.93359"
+         id="tspan3075" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="394.28571"
+       y="888.07654"
+       id="text3077"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3079"
+         x="394.28571"
+         y="888.07654">task3</tspan><tspan
+         sodipodi:role="line"
+         x="394.28571"
+         y="913.07654"
+         id="tspan3081">- id=347</tspan><tspan
+         sodipodi:role="line"
+         x="394.28571"
+         y="938.07654"
+         id="tspan3085">- name=send coin</tspan><tspan
+         sodipodi:role="line"
+         x="394.28571"
+         y="963.07654"
+         id="tspan3089">- description=through</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="477.14285"
+       y="188.07648"
+       id="text3130"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3132"
+         x="477.14285"
+         y="188.07648"
+         style="font-weight:normal;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">job_report</tspan><tspan
+         sodipodi:role="line"
+         x="477.14285"
+         y="213.07648"
+         id="tspan3134">- id_of_task=347</tspan><tspan
+         sodipodi:role="line"
+         x="477.14285"
+         y="238.07648"
+         id="tspan3140">- finished=02:40</tspan><tspan
+         sodipodi:role="line"
+         x="477.14285"
+         y="263.07648"
+         id="tspan3148">- is_success=true</tspan><tspan
+         sodipodi:role="line"
+         x="477.14285"
+         y="288.07648"
+         id="tspan3146">- is_tested=true</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="268.57144"
+       y="143.79076"
+       id="text3152"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3154"
+         x="268.57144"
+         y="143.79076"
+         style="font-weight:normal;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">job_state</tspan><tspan
+         sodipodi:role="line"
+         x="268.57144"
+         y="168.79076"
+         id="tspan3156">- id_of_task=346</tspan><tspan
+         sodipodi:role="line"
+         x="268.57144"
+         y="193.79076"
+         id="tspan3158">- time=3:35</tspan><tspan
+         sodipodi:role="line"
+         x="268.57144"
+         y="218.79076"
+         id="tspan3160">- progress=10%</tspan><tspan
+         sodipodi:role="line"
+         x="268.57144"
+         y="243.79076"
+         id="tspan3164" /><tspan
+         sodipodi:role="line"
+         x="268.57144"
+         y="268.79074"
+         id="tspan3162" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="128.57143"
+       y="553.79077"
+       id="text3180"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="128.57143"
+         y="553.79077"
+         id="tspan3184"
+         style="font-weight:normal;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">task_performer</tspan><tspan
+         sodipodi:role="line"
+         x="128.57143"
+         y="578.79077"
+         id="tspan3188">- id_of_task=345</tspan><tspan
+         sodipodi:role="line"
+         x="128.57143"
+         y="603.79077"
+         id="tspan3190">- performer=Ivan</tspan><tspan
+         sodipodi:role="line"
+         x="128.57143"
+         y="628.79077"
+         id="tspan3196">- role=MeatFreezer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="18.571428"
+       y="280.93362"
+       id="text3204"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3206"
+         x="18.571428"
+         y="280.93362">a job - is an atomically item</tspan><tspan
+         sodipodi:role="line"
+         x="18.571428"
+         y="295.93362"
+         id="tspan3208">it has no progress </tspan><tspan
+         sodipodi:role="line"
+         x="18.571428"
+         y="310.93362"
+         id="tspan3210">it has only borders: start-end + description + error/success</tspan><tspan
+         sodipodi:role="line"
+         x="18.571428"
+         y="325.93362"
+         id="tspan3212">a bigjob contains few atomatically jobs: percent of completed atomatically job - it is a progress</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="535.71429"
+       y="393.07645"
+       id="text3214"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3216"
+         x="535.71429"
+         y="393.07645"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">task_report</tspan><tspan
+         sodipodi:role="line"
+         x="535.71429"
+         y="410.57645"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan3218">- id_of_task=347</tspan><tspan
+         sodipodi:role="line"
+         x="535.71429"
+         y="428.07645"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan3220">- started=4:40</tspan><tspan
+         sodipodi:role="line"
+         x="535.71429"
+         y="445.57645"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan3222">- finished=5:40</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="286.42856"
+       y="396.64789"
+       id="text3224"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3226"
+         x="286.42856"
+         y="396.64789">task_progressing</tspan><tspan
+         sodipodi:role="line"
+         x="286.42856"
+         y="414.14789"
+         id="tspan3228">-id_of_task=346</tspan><tspan
+         sodipodi:role="line"
+         x="286.42856"
+         y="431.64789"
+         id="tspan3232">-created=03:10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="245.00002"
+       y="470.93365"
+       id="text3234"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3236"
+         x="245.00002"
+         y="470.93365">task_progressing_planned_finished</tspan><tspan
+         sodipodi:role="line"
+         x="245.00002"
+         y="488.43365"
+         id="tspan3238">-if_of_task=346</tspan><tspan
+         sodipodi:role="line"
+         x="245.00002"
+         y="505.93365"
+         id="tspan3240">-planned_finished=12:00</tspan></text>
+  </g>
+</svg>

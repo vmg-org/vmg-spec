@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="dl-from-videohosting.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="362.32911"
+     inkscape:cy="787.69437"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="474"
+       y="124.36218"
+       id="text4297"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="474"
+         y="124.36218"
+         id="tspan4301" /></text>
+    <g
+       id="g5077"
+       transform="translate(30,97)">
+      <rect
+         y="80.362183"
+         x="420"
+         height="66"
+         width="190"
+         id="rect4295"
+         style="fill:#ccfd7e;fill-opacity:1;stroke:#000000;stroke-width:1.39999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5073"
+         y="107.36218"
+         x="448"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="107.36218"
+           x="448"
+           id="tspan5075"
+           sodipodi:role="line">Video hosting</tspan><tspan
+           y="132.36218"
+           x="448"
+           sodipodi:role="line"
+           id="tspan5322">       (vhst)</tspan></text>
+    </g>
+    <g
+       transform="translate(-3,229)"
+       id="g5128">
+      <rect
+         y="180.36218"
+         x="198"
+         height="66"
+         width="190"
+         id="rect4295-8"
+         style="fill:#ccfd7e;fill-opacity:1;stroke:#000000;stroke-width:1.39999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5073-6"
+         y="218.36218"
+         x="243"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="218.36218"
+           x="243"
+           id="tspan5075-3"
+           sodipodi:role="line">Api server</tspan></text>
+    </g>
+    <rect
+       y="568.36218"
+       x="409"
+       height="66"
+       width="190"
+       id="rect4295-7"
+       style="fill:#ccfd7e;fill-opacity:1;stroke:#000000;stroke-width:1.39999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5073-4"
+       y="609.36218"
+       x="475"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="609.36218"
+         x="475"
+         id="tspan5075-39"
+         sodipodi:role="line">Client</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="354"
+       y="525.36218"
+       id="text5122"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5124"
+         x="354"
+         y="525.36218"
+         style="font-size:14px">1 client-&gt;api</tspan><tspan
+         sodipodi:role="line"
+         x="354"
+         y="542.86218"
+         id="tspan5126"
+         style="font-size:14px">job_vhst with url of a source video</tspan></text>
+    <g
+       id="g5128-9"
+       transform="translate(-72,61)">
+      <rect
+         y="180.36218"
+         x="198"
+         height="66"
+         width="190"
+         id="rect4295-8-9"
+         style="fill:#ccfd7e;fill-opacity:1;stroke:#000000;stroke-width:1.39999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5073-6-7"
+         y="205.36218"
+         x="255"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="205.36218"
+           x="255"
+           id="tspan5075-3-8"
+           sodipodi:role="line">Loader</tspan><tspan
+           y="230.36218"
+           x="255"
+           sodipodi:role="line"
+           id="tspan5382">server</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5174"
+       y="344.36218"
+       x="137"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="344.36218"
+         x="137"
+         id="tspan5176"
+         sodipodi:role="line">3 api-&gt;loader</tspan><tspan
+         id="tspan5180"
+         y="361.86218"
+         x="137"
+         sodipodi:role="line">job_vhst with url_src</tspan><tspan
+         id="tspan5178"
+         y="379.36218"
+         x="137"
+         sodipodi:role="line" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5182"
+       y="269.36218"
+       x="345"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="269.36218"
+         x="345"
+         id="tspan5184"
+         sodipodi:role="line">4 loader-&gt;vhst</tspan><tspan
+         id="tspan5186"
+         y="286.86218"
+         x="345"
+         sodipodi:role="line"> check + download a file from src_url</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5188"
+       y="331.36218"
+       x="302"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="331.36218"
+         x="302"
+         id="tspan5190"
+         sodipodi:role="line">6 api-&gt;loader</tspan><tspan
+         id="tspan5192"
+         y="348.86218"
+         x="302"
+         sodipodi:role="line">check a job_vhst</tspan><tspan
+         id="tspan5194"
+         y="366.36218"
+         x="302"
+         sodipodi:role="line">result: job_vhst.status</tspan><tspan
+         y="383.86218"
+         x="302"
+         sodipodi:role="line"
+         id="tspan5334">error: limit, notfound, etc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="82"
+       y="151.36218"
+       id="text5196"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5198"
+         x="82"
+         y="151.36218">5 loader-&gt;cloud</tspan><tspan
+         sodipodi:role="line"
+         x="82"
+         y="168.86218"
+         id="tspan5200">save a file in a cloud</tspan><tspan
+         sodipodi:role="line"
+         x="82"
+         y="186.36218"
+         id="tspan5346">return: url_cloud</tspan></text>
+    <g
+       id="g5128-9-0"
+       transform="translate(-120,-132)">
+      <rect
+         y="180.36218"
+         x="198"
+         height="66"
+         width="190"
+         id="rect4295-8-9-0"
+         style="fill:#ccfd7e;fill-opacity:1;stroke:#000000;stroke-width:1.39999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5073-6-7-9"
+         y="204.36218"
+         x="263"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="204.36218"
+           x="263"
+           id="tspan5075-3-8-8"
+           sodipodi:role="line">Cloud</tspan><tspan
+           y="229.36218"
+           x="263"
+           sodipodi:role="line"
+           id="tspan5384">storage</tspan></text>
+    </g>
+    <g
+       id="g5128-9-4"
+       transform="translate(-171,393)">
+      <rect
+         y="180.36218"
+         x="198"
+         height="66"
+         width="190"
+         id="rect4295-8-9-7"
+         style="fill:#ccfd7e;fill-opacity:1;stroke:#000000;stroke-width:1.39999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5073-6-7-4"
+         y="221.36218"
+         x="246"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="221.36218"
+           x="246"
+           id="tspan5075-3-8-6"
+           sodipodi:role="line">Database</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="89"
+       y="519.36218"
+       id="text5308"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5310"
+         x="89"
+         y="519.36218">7 api-&gt;db</tspan><tspan
+         sodipodi:role="line"
+         x="89"
+         y="536.86218"
+         id="tspan5312">save</tspan><tspan
+         sodipodi:role="line"
+         x="89"
+         y="554.36218"
+         id="tspan5348">job_vhst + media_file</tspan><tspan
+         sodipodi:role="line"
+         x="89"
+         y="571.86218"
+         id="tspan5344" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="456"
+       y="441.36218"
+       id="text5314"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5316"
+         x="456"
+         y="441.36218">8 client-&gt;api</tspan><tspan
+         sodipodi:role="line"
+         x="456"
+         y="458.86218"
+         id="tspan5320">check a job</tspan><tspan
+         sodipodi:role="line"
+         x="456"
+         y="476.36218"
+         id="tspan5318">result: job_vhst + media_file</tspan><tspan
+         sodipodi:role="line"
+         x="456"
+         y="493.86218"
+         id="tspan5336">error: limit, notfound, etc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="144"
+       y="654.36218"
+       id="text5324"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5326"
+         x="144"
+         y="654.36218"
+         style="font-weight:bold">job_vhst</tspan><tspan
+         sodipodi:role="line"
+         x="144"
+         y="671.86218"
+         id="tspan5328">- url_src</tspan><tspan
+         sodipodi:role="line"
+         x="144"
+         y="689.36218"
+         id="tspan5332">- status</tspan><tspan
+         sodipodi:role="line"
+         x="144"
+         y="706.86218"
+         id="tspan5388">- status_detail</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="141"
+       y="730.36218"
+       id="text5350"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5352"
+         x="141"
+         y="730.36218"
+         style="font-weight:bold">media_file</tspan><tspan
+         sodipodi:role="line"
+         x="141"
+         y="747.86218"
+         id="tspan5354">- id</tspan><tspan
+         sodipodi:role="line"
+         x="141"
+         y="765.36218"
+         id="tspan5356">- url_cloud</tspan><tspan
+         sodipodi:role="line"
+         x="141"
+         y="782.86218"
+         id="tspan5358">- metadata</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="18"
+       y="458.36218"
+       id="text5364"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5366"
+         x="18"
+         y="458.36218">2 api-&gt;db</tspan><tspan
+         sodipodi:role="line"
+         x="18"
+         y="475.86218"
+         id="tspan5368">create</tspan><tspan
+         sodipodi:role="line"
+         x="18"
+         y="493.36218"
+         id="tspan5370">job_vhst: status=begin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="483"
+       y="24.362183"
+       id="text5372"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5374"
+         x="483"
+         y="24.362183"
+         style="font-weight:bold">Job: download a selected video </tspan><tspan
+         sodipodi:role="line"
+         x="483"
+         y="41.862183"
+         id="tspan5376"
+         style="font-weight:bold">from a videohosting to a project</tspan></text>
+  </g>
+</svg>

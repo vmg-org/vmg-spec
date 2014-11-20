@@ -16,7 +16,7 @@ exports.cloneJson = function(obj) {
 
   for (var key in obj) {
     if (obj.hasOwnProperty(key)) {
-      temp[key] = cloneJson(obj[key]);
+      temp[key] = exports.cloneJson(obj[key]);
     }
   }
   return temp;

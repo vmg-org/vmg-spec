@@ -129,7 +129,7 @@ a.w2008 = {
 
 a.w2009 = {
   tags: ["job_output"],
-  summary: "DELETE a job_output. Delete array of file_output for this job. Delete array of media_file for this job. Delete these files from a file storage, and their snapshots (if exist). All of these objects can be deleted only if no job_cut yet",
+  summary: "DELETE a job_output. Delete array of file_output for this job. Delete array of media_file for this job. Delete these files from a file storage, and their snapshots (if exist).",
   parameters: [{
     "in": "body",
     "name": "body",
@@ -172,6 +172,22 @@ a.w2011 = {
     }
   }],
   "security": {}
+};
+
+a.w2012 = {
+  tags: ["job_source"],
+  summary: "DELETE a job_source. Delete a file_source for this job. Delete a media_file for this job. Delete files from a cloud storage, and their snapshots (if exist).",
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "job_source",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "job_source"
+    }
+  }],
+  // only for media creator (or site moderator)
+  security: {}
 };
 
 var result = {};
