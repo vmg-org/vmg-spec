@@ -24,16 +24,17 @@ gulp.task('jshint', function() {
 
 gulp.task('gitlog', function(done) {
   var tmpFilePath = 'doc/log-tmp.log';
-  var logFilePath = 'doc/log-201410.log';
-  var afterDate = new Date(2014, 9, 1); //new Date(Date.now() - (1000 * 60 * 60 * 24));
-  var beforeDate = new Date(2014, 10, 4);
+  var logFilePath = 'doc/log-201411.log';
+  var afterDate = new Date(2014, 10, 4); //new Date(Date.now() - (1000 * 60 * 60 * 24));
+  var beforeDate = new Date(2014, 11, 1);
 
   var shellCommand = 'git log ' + gitLog.generateArgs(afterDate, beforeDate, tmpFilePath).join(' ');
   console.log(shellCommand);
 
   exec(shellCommand, function(err) {
     if (err) {
-      return done(err);
+      done(err);
+      return;
     }
 
     gitLog.createLog(tmpFilePath, logFilePath, done);

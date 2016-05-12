@@ -1,5 +1,5 @@
 module.exports = {
-  primaryKey: 'id_of_media_spec',
+   primaryKey: 'id_of_media_spec',
   properties: {
     id_of_media_spec: {
       type: 'integer',

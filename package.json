@@ -1,6 +1,6 @@
 {
   "name": "vmg-spec",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "VMG specification: models, api methods, api declaration",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:vidmerg-team/vmg-spec.git"
+    "url": "git@github.com:vmg-org/vmg-spec.git"
   },
   "author": "IvanRave",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.8.7",
-    "gulp-jshint": "^1.8.4",
-    "jshint-stylish": "^0.2.0",
-    "git-log": "git://github.com/IvanRave/git-log.git"
+    "git-log": "git://github.com/IvanRave/git-log.git",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "*",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "*"
   }
 }

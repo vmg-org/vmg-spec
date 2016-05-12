@@ -190,6 +190,21 @@ a.w2012 = {
   security: {}
 };
 
+a.w2014 = {
+  tags: ["user_profile"],
+  summary: "DELETE an user_profile. Delete all stuff from user profile besides public elements",
+  parameters: [{
+    "in": "body",
+    "name": "body",
+    "description": "user_profile",
+    "required": true,
+    "schema": {
+      $ref: pth.defs + "user_profile"
+    }
+  }],
+  security: {}
+};
+
 var result = {};
 
 // Add opertionId = path of API
